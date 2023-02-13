@@ -35,7 +35,7 @@ git clone the repository via SHH
 git switch -c  temporary_branch_ilja
 touch file
 git add file
-git commit file -m “made some changes”
+git file -m “made some changes”
 git push --set-upstream origin  temporary_branch_ilja
 open pull request on GitHub, add reviewer, wait for approval
 got to Pull Requests on GitHub, merge, delete the temporary branch
